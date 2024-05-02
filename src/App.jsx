@@ -1,13 +1,17 @@
 
 import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Rahimjon from './pages/Rahimjon'
 
 function App() {
   
 
   return (
-    <>
-      <h1>Helolo wordl</h1>
-    </>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Rahimjon/>} /> 
+      </Routes>
+    </Router>
   )
 }
 

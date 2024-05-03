@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Otziv from "./Otziv";
 
 const Rahimjon = () => {
   return (
-    <div>Rahimjon</div>
-  )
-}
+    <div>
+      <Otziv />
+    </div>
+  );
+};
 
-export default Rahimjon
+export default Rahimjon;

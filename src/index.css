@@ -6,8 +6,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+
+body {
+  background-color: #DCE9F9;
+}
+
+:root {
+  --grey : #6E8BB7;
+  --primary: #4094F7;
+  --dark-grey: #303940;
 }
 
 ul {
   list-style: none;
+}
+
+.active {
+  background: var(--primary);
+  color: white;
 }

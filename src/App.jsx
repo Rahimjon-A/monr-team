@@ -2,9 +2,9 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Rahimjon from './pages/Rahimjon'
-
+import Banner from './pages/Banner'
 function App() {
-  
+ 
 
   return (
     <Router>

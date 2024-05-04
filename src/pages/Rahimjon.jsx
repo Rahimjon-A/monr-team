@@ -1,8 +1,11 @@
 import React from 'react'
+import Banner from './Banner'
 
 const Rahimjon = () => {
   return (
-    <div>Rahimjon</div>
+    <div>
+      <Banner/>
+    </div>
   )
 }
 
